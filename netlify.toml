@@ -1,5 +1,5 @@
 [build]
-command = "yarn rw build && yarn rw db up --no-db-client --auto-approve && yarn rw dataMigrate up"
+command = "yarn rw build && yarn rw dataMigrate up"
 publish = "web/dist"
 functions = "api/dist/functions"
 
@@ -10,3 +10,12 @@ functions = "api/dist/functions"
   from = "/*"
   to = "/index.html"
   status = 200
+
+
+root
+s7m2FGAyhGTy2YJ
+random.cluster-cr6yor5suexq.us-east-1.rds.amazonaws.com:5432
+
+
+
+random.cluster-cr6yor5suexq.us-east-1.rds.amazonaws.com
