@@ -8,5 +8,10 @@ functions = "api/dist/functions"
 
 [[redirects]]
   from = "/*"
-  to = "/users"
+  to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "/"
+  to = "/users"
+  status = 301
