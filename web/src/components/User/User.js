@@ -68,6 +68,10 @@ const User = ({ user }) => {
               <th>Name</th>
               <td>{user.name}</td>
             </tr>
+            <tr>
+              <th>Country</th>
+              <td>{user.country}</td>
+            </tr>
           </tbody>
         </table>
       </div>

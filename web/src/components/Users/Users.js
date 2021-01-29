@@ -64,6 +64,7 @@ const UsersList = ({ users }) => {
             <th>Id</th>
             <th>Email</th>
             <th>Name</th>
+            <th>Country</th>
             <th>&nbsp;</th>
           </tr>
         </thead>
@@ -73,6 +74,7 @@ const UsersList = ({ users }) => {
               <td>{truncate(user.id)}</td>
               <td>{truncate(user.email)}</td>
               <td>{truncate(user.name)}</td>
+              <td>{truncate(user.country)}</td>
               <td>
                 <nav className="rw-table-actions">
                   <Link

@@ -8,6 +8,7 @@ export const QUERY = gql`
       id
       email
       name
+      country
     }
   }
 `
@@ -17,6 +18,7 @@ const UPDATE_USER_MUTATION = gql`
       id
       email
       name
+      country
     }
   }
 `

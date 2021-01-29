@@ -54,6 +54,22 @@ const UserForm = (props) => {
         />
         <FieldError name="name" className="rw-field-error" />
 
+        <Label
+          name="country"
+          className="rw-label"
+          errorClassName="rw-label rw-label-error"
+        >
+          Country
+        </Label>
+        <TextField
+          name="country"
+          defaultValue={props.user?.country}
+          className="rw-input"
+          errorClassName="rw-input rw-input-error"
+          validation={{ required: true }}
+        />
+        <FieldError name="country" className="rw-field-error" />
+
         <div className="rw-button-group">
           <Submit disabled={props.loading} className="rw-button rw-button-blue">
             Save

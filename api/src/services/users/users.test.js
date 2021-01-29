@@ -30,10 +30,10 @@ describe('users', () => {
     const original = await user({ id: scenario.user.one.id })
     const result = await updateUser({
       id: original.id,
-      input: { name: 'String9437045' },
+      input: { name: 'String5832960' },
     })
 
-    expect(result.name).toEqual('String9437045')
+    expect(result.name).toEqual('String5832960')
   })
 
   scenario('deletes a user', async (scenario) => {
