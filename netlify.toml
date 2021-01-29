@@ -10,12 +10,3 @@ functions = "api/dist/functions"
   from = "/*"
   to = "/index.html"
   status = 200
-
-
-root
-s7m2FGAyhGTy2YJ
-random.cluster-cr6yor5suexq.us-east-1.rds.amazonaws.com:5432
-
-
-
-random.cluster-cr6yor5suexq.us-east-1.rds.amazonaws.com
